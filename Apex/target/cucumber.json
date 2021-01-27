@@ -1,0 +1,115 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-22T04:50:29.078Z",
+        "line": 9,
+        "name": "searching for movies on amazon",
+        "description": "",
+        "id": "search-on-amazon;searching-for-movies-on-amazon;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user goes to amazon page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user try to search for different \"Titanic\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T04:50:29.121Z",
+        "line": 10,
+        "name": "searching for movies on amazon",
+        "description": "",
+        "id": "search-on-amazon;searching-for-movies-on-amazon;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user goes to amazon page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user try to search for different \"Shrek\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T04:50:29.126Z",
+        "line": 11,
+        "name": "searching for movies on amazon",
+        "description": "",
+        "id": "search-on-amazon;searching-for-movies-on-amazon;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user goes to amazon page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user try to search for different \"Cinderella\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Search on Amazon",
+    "description": "",
+    "id": "search-on-amazon",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/basicFunctionality.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-26T12:08:20.360Z",
+        "line": 4,
+        "name": "User finds fake bar",
+        "description": "",
+        "id": "weighing-function;user-finds-fake-bar",
+        "after": [
+          {
+            "result": {
+              "duration": 627909000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3771188800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 4125532700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.navigate()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User inputs value in left box",
+            "match": {
+              "location": "WeighStepDefs.user_inputs_value_in_left_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121915600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 107426600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.navigate()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User compares Values",
+            "match": {
+              "location": "WeighStepDefs.user_compares_Values()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76261800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 61145200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.navigate()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User verifies fake Bar",
+            "match": {
+              "location": "WeighStepDefs.user_verifies_fake_bar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Weigh"
+          }
+        ]
+      }
+    ],
+    "name": "Weighing Function",
+    "description": "",
+    "id": "weighing-function",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/goldBars.feature",
+    "tags": []
+  }
+]
